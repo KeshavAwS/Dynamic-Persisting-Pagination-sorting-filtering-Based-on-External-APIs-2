@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Paginated Users</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    #user-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    .user-card {
+      border: 1px solid #ccc;
+      padding: 15px;
+      width: 250px;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    }
+    .pagination {
+      margin-top: 20px;
+    }
+    .pagination button {
+      margin: 0 5px;
+      padding: 8px 12px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Paginated User List</h1>
+  <div id="user-container"></div>
+  <div class="pagination" id="pagination"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
